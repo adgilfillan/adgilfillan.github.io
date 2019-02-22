@@ -10,7 +10,7 @@
         var curImgId = 0;
         var numberOfImages = 3; // Change this to the number of background images
         window.setInterval(function() {
-            $('body').css('background','url("adgilfillan.github.io/images/' + curImgId +'.jpg")');// set the image path here
+            $('body').css('background','url("adgilfillan.github.io/images/'+ curImgId +'.jpg")');// set the image path here
             curImgId = (curImgId + 1) % numberOfImages;
         }, 15 * 1000);
     })();
