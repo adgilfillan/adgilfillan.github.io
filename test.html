@@ -8,19 +8,15 @@
 <script style="text/javascript">
     (function () {
         var curImgId = 0;
-        var numberOfImages = 3; // Change this to the number of background images
+        var numberOfImages = 3;
         window.setInterval(function() {
-            $('body').css('background','url("adgilfillan.github.io/images/'+ curImgId +'.jpg")');// set the image path here
+            $('body').css('background','url("adgilfillan.github.io/images/'+ curImgId +'.jpg")');
             curImgId = (curImgId + 1) % numberOfImages;
         }, 15 * 1000);
     })();
 
 </script>
-  
 </head>
 <body>
-
-<div class="bg"></div>
-
 </body>
 </html>
